@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\usepackage[pdftex]{xcolor}
+\usepackage{luahighlight}
+\usepackage{lipsum}
+
+\highlight[red]{Lorem}
+\highlight[green]{dolor}
+\highlight[orange]{world}
+\highlight[blue]{Curabitur}
+\highlight[brown]{elit}
+\begin{document}
+\def\world{world}
+\section{Hello world}
+
+Hello world, world? world! \world\  \textcolor{purple}{but normal colors works} too\footnote{Hello world from footnote}
+
+\lipsum[1-12]
+\end{document}
